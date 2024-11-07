@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body {
+            
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            color: #333;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #333;
+            color: white;
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar h1 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+        .sidebar a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin: 1rem 0;
+            display: block;
+            text-align: center;
+        }
+        .sidebar a:hover, .sidebar a.active {
+            color: white;
+        }
+        .sidebar .social-icons a {
+            font-size: 1.5rem;
+            color: #ccc;
+            margin: 0.5rem;
+            text-decoration: none;
+        }
+        .sidebar .copyright {
+            margin-top: auto;
+            font-size: 0.8rem;
+            padding: 2rem;
+            color: #ccc;
+            text-align: center;
+        }
+        
+        .content {
+            margin-left: 20%;
+            padding: 2rem;
+            width: 80%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .header h2 {
+            color: blue;
+            font-size: 2rem;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-top: -1rem;
+        }
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+        }
+        .profile-info h3 {
+            font-size: 1.8rem;
+            color: #31be4f;
+        }
+        .profile-info p {
+            font-size: 1rem;
+            color: #666;
+        }
+        .profile-info .download-btn {
+            background-color: #3fb3d3;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+        
+        .contact-details, .experience-details {
+            margin: 2rem 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-details div, .experience-details div {
+            text-align: center;
+        }
+        .contact-details div i, .experience-details div i {
+            font-size: 1.2rem;
+            color: #ff007a;
+        }
+        .experience-details .card {
+            width: 100%;
+            text-align: left;
+            padding: 1rem;
+            margin-top: 1rem;
+            background: #ff007a;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        
+        .gradient-section {
+            padding: 1rem;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>It's ME</h2>
+    <a href="personal_profile.html" >HOME</a>
+    <a href="#" class="active">ABOUT</a>
+    <a href="Works.html">WORKS</a>
+    <a href="contact_info.html">CONTACT INFO</a>
+    <a href="Link.HTML">LINKS</a>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-behance"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copyright">
+        ©2024 kinley Tshering. All rights reserved.
+    </div>
+</div>
+
+<div class="content">
+    <div class="header">
+        <p>Nice to meet you!</p>
+        <h2>WELCOME TO...</h2>
+        <h1>Kinley Tshering</h1>
+        <p>A gedu student.</p>
+    </div>
+
+    <div class="profile-section">
+        <div class="profile-image">
+            <img src="Screenshot (97).png" alt="kinley photo">
+        </div>
+        <div class="profile-info">
+            <h3>KINLEY TSHERING</h3>
+            <p>SOFTWARE ENGINEER</p>
+            <a href="#" class="download-btn">Download CV</a>
+        </div>
+    </div>
+
+    <div class="contact-details">
+        <div><i class="fas fa-phone"></i><br>+975 17649937</div>
+        <div><i class="fas fa-envelope"></i><br>tsheringk127@gmail.com</div>
+        <div><i class="fas fa-map-marker-alt"></i><br>Gedu, Bhutan</div>
+        <div><i class="fas fa-calendar-alt"></i><br>19 years</div>
+    </div>
+
+    <div class="experience-details">
+        <div>
+            <h2>+4 Months experience...</h2>
+            <p>Hello there! My name is Kinley Tshering. I am a software engineer student, and I'm very passionate and dedicated to my studies.I am not that good but i can </p>
+        </div>
+
+    <div class="gradient-section">
+        <h2>MY EXPERIENCE</h2>
+        <p>Download my resume</p>
+        <div class="card">i can creat a website</div>
+        <div class="card">i can creat a personal profile</div>
+        
+    </div>
+</div>
+
+</body>
+</html>

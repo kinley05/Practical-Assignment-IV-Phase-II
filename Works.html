@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            color: #333;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar h1 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+        .sidebar a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin: 1rem 0;
+            display: block;
+            text-align: center;
+        }
+        .sidebar a:hover, .sidebar a.active {
+            color: white;
+        }
+        .sidebar .social-icons a {
+            font-size: 1.5rem;
+            color: #ccc;
+            margin: 0.5rem;
+            text-decoration: none;
+        }
+        .sidebar .copyright {
+            margin-top: auto;
+            font-size: 0.8rem;
+            padding: 2rem;
+            color: #cccccc;
+            text-align: center;
+        }
+        
+        .content {
+            margin-left: 20%;
+            padding: 2rem;
+            width: 80%;
+        }
+        .recent-projects, .testimonial {
+            margin-top: 2rem;
+        }
+    
+        .recent-projects h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .project {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .project p {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0.5rem 0;
+        }
+        .load-more {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .load-more button {
+            background-color: #333;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .testimonial {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        .testimonial h2 {
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        .testimonial p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .testimonial-author {
+            font-style: italic;
+            font-size: 1rem;
+        }
+        .testimonial-navigation {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .testimonial-navigation i {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .brands {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .brand-logo {
+            width: 80px;
+            height: auto;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h1>It's ME</h1>
+    <a href="personal_profile.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="#" class="active">WORKS</a>
+    <a href="contact_info.html">CONTACT INFO</a>
+    <a href="Link.HTML">LINKS</a>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-behance"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copyright">
+        ©2022 kinley Tshering. All right reserved.
+    </div>
+</div>
+
+<div class="content">
+    <div class="recent-projects">
+        <p>Achievements</p>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="https://via.placeholder.com/150" alt="Project Image">
+                <p>UX case study</p>
+                <h3>Bally Website Research</h3>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/150" alt="Project Image">
+                <p>UX case study</p>
+                <h3>Bally Website Research</h3>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/150" alt="Project Image">
+                <p>UX case study</p>
+                <h3>Bally Website Research</h3>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/150" alt="Project Image">
+                <p>UX case study</p>
+                <h3>Bally Website Research</h3>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/150" alt="Project Image">
+                <p>UX case study</p>
+                <h3>Bally Website Research</h3>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/150" alt="Project Image">
+                <p>UX case study</p>
+                <h3>Bally Website Research</h3>
+            </div>
+        </div>
+        <div class="load-more">
+            <button>Load more</button>
+        </div>
+    </div>
+    
+    <div class="testimonial">
+        <p>Testimonial</p>
+        <h2>WHAT THEY SAYS</h2>
+        <p>“File storage made easy – including powerful features you won’t find anywhere else. Whether you’re.”</p>
+        <p class="testimonial-author">- Larry Diamond, Chief Executive Officer, Besnik</p>
+        <div class="testimonial-navigation">
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>
